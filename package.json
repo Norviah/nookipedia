@@ -1,0 +1,47 @@
+{
+  "name": "nookipedia",
+  "version": "1.0.0",
+  "author": "norviah",
+  "license": "MIT",
+  "description": "An API wrapper for Nookiepedia.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "clear;./node_modules/typescript/bin/tsc",
+    "run": "npm run build && node ./lib/index.js",
+    "docs": "/bin/rm -rf docs;./node_modules/typedoc/bin/typedoc --plugin typedoc-plugin-markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norviah/nookipedia.git"
+  },
+  "keywords": [
+    "nookipedia"
+  ],
+  "bugs": {
+    "url": "https://github.com/norviah/nookipedia/issues"
+  },
+  "homepage": "https://github.com/norviah/nookipedia#readme",
+  "dependencies": {
+    "fast-fuzzy": "^1.9.2",
+    "moment": "^2.25.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.6",
+    "@types/node-fetch": "^2.5.7",
+    "@types/ws": "^7.2.4",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "typedoc": "^0.17.6",
+    "typedoc-plugin-markdown": "^2.2.17",
+    "typescript": "^3.9.2"
+  }
+}
