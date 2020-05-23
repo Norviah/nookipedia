@@ -33,7 +33,7 @@ A Typescript wrapper for Nookipedia's API.
 
 \+ **new Nookipedia**(`key`: string): *[Nookipedia](_nookipedia_.nookipedia.md)*
 
-Defined in src/nookipedia.ts:37
+*Defined in [src/nookipedia.ts:37](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L37)*
 
 Initializes a new Nookipedia instance.
 
@@ -51,7 +51,7 @@ Name | Type | Description |
 
 • **critters**: *[Endpoint](_endpoint_.endpoint.md)‹endpoint.Critter›*
 
-Defined in src/nookipedia.ts:32
+*Defined in [src/nookipedia.ts:32](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L32)*
 
 The endpoint for critters,
 note that this endpoint is in beta and that
@@ -63,7 +63,7 @@ ___
 
 • **fossils**: *[Endpoint](_endpoint_.endpoint.md)‹endpoint.Fossil›*
 
-Defined in src/nookipedia.ts:25
+*Defined in [src/nookipedia.ts:25](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L25)*
 
 The endpoint for fossils.
 
@@ -73,7 +73,7 @@ ___
 
 • **key**: *string*
 
-Defined in src/nookipedia.ts:15
+*Defined in [src/nookipedia.ts:15](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L15)*
 
 Your API key, available at:
 https://nookipedia.com/api/.
@@ -84,7 +84,7 @@ ___
 
 • **url**: *string* = "https://nookipedia.com/api"
 
-Defined in src/nookipedia.ts:37
+*Defined in [src/nookipedia.ts:37](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L37)*
 
 The base url for Nookiepdia's API.
 
@@ -94,7 +94,7 @@ ___
 
 • **villagers**: *[Endpoint](_endpoint_.endpoint.md)‹endpoint.Villager›*
 
-Defined in src/nookipedia.ts:20
+*Defined in [src/nookipedia.ts:20](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L20)*
 
 The endpoint for villagers.
 
@@ -104,7 +104,7 @@ The endpoint for villagers.
 
 ▸ **category**(`category`: string): *Promise‹api.APIResponse‹string[]››*
 
-Defined in src/nookipedia.ts:68
+*Defined in [src/nookipedia.ts:68](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L68)*
 
 Returns an array representing all entries for this category.
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **today**(`date?`: undefined | string): *Promise‹endpoint.Today›*
 
-Defined in src/nookipedia.ts:56
+*Defined in [src/nookipedia.ts:56](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/nookipedia.ts#L56)*
 
 Returns an object representing the events for the
 current date, or, the given date if one is given.

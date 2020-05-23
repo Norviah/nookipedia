@@ -17,7 +17,7 @@
 
 Ƭ **APIResponse**: *object*
 
-Defined in src/types/api.ts:37
+*Defined in [src/types/api.ts:37](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/api.ts#L37)*
 
 Represents what this wrapper will respond with
 when calling the API for an entry on an endpoint.
@@ -36,7 +36,7 @@ ___
 
 Ƭ **Category**: *object*
 
-Defined in src/types/api.ts:62
+*Defined in [src/types/api.ts:62](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/api.ts#L62)*
 
 Represents what the API responds with
 when calling it for a request for a category.
@@ -61,7 +61,7 @@ ___
 
 Ƭ **Entry**: *object*
 
-Defined in src/types/api.ts:16
+*Defined in [src/types/api.ts:16](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/api.ts#L16)*
 
 Represents how this wrapper will format
 information about an entry on an endpoint.
@@ -80,7 +80,7 @@ ___
 
 Ƭ **Options**: *object*
 
-Defined in src/types/api.ts:4
+*Defined in [src/types/api.ts:4](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/api.ts#L4)*
 
 Options to use when calling the API.
 

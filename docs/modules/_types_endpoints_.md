@@ -19,7 +19,7 @@
 
 Ƭ **Critter**: *object*
 
-Defined in src/types/endpoints.ts:34
+*Defined in [src/types/endpoints.ts:34](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L34)*
 
 Represents what the API will respond for a request about a critter.
 
@@ -63,7 +63,7 @@ ___
 
 Ƭ **Endpoints**: *[Villager](_types_endpoints_.md#villager) | [Fossil](_types_endpoints_.md#fossil) | [Critter](_types_endpoints_.md#critter)*
 
-Defined in src/types/endpoints.ts:4
+*Defined in [src/types/endpoints.ts:4](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L4)*
 
 Represents the types of endpoints that is available through Nookipedia's API.
 
@@ -73,7 +73,7 @@ ___
 
 Ƭ **Fossil**: *object*
 
-Defined in src/types/endpoints.ts:119
+*Defined in [src/types/endpoints.ts:119](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L119)*
 
 Represents what the API will respond for a request about a fossil.
 
@@ -109,7 +109,7 @@ ___
 
 Ƭ **Names**: *"villager" | "fossil" | "critter"*
 
-Defined in src/types/endpoints.ts:9
+*Defined in [src/types/endpoints.ts:9](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L9)*
 
 Represents the names of endpoints available through Nookiepdia's API.
 
@@ -119,7 +119,7 @@ ___
 
 Ƭ **Today**: *object*
 
-Defined in src/types/endpoints.ts:14
+*Defined in [src/types/endpoints.ts:14](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L14)*
 
 Represents what the API will respond for a request about the events for a date.
 
@@ -137,7 +137,7 @@ ___
 
 Ƭ **Villager**: *object*
 
-Defined in src/types/endpoints.ts:184
+*Defined in [src/types/endpoints.ts:184](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/types/endpoints.ts#L184)*
 
 Represents what the API will respond for a request about a villager.
 

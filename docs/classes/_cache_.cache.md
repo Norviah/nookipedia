@@ -50,7 +50,7 @@ the exact given string to retrieve.
 
 \+ **new Cache**(): *[Cache](_cache_.cache.md)*
 
-Defined in src/cache.ts:9
+*Defined in [src/cache.ts:9](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/cache.ts#L9)*
 
 Initializes a new Cache instance.
 
@@ -148,7 +148,7 @@ ___
 
 ▸ **find**(`name`: string): *Type | null*
 
-Defined in src/cache.ts:42
+*Defined in [src/cache.ts:42](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/cache.ts#L42)*
 
 Tries to find the given name in the map and returns
 its entry as the generic type, if an entry can't be found null is returned.
@@ -217,7 +217,7 @@ ___
 
 *Overrides void*
 
-Defined in src/cache.ts:32
+*Defined in [src/cache.ts:32](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/cache.ts#L32)*
 
 Determines if the given name exists within this map.
 
@@ -251,7 +251,7 @@ ___
 
 ▸ **matches**(`name`: string): *string[]*
 
-Defined in src/cache.ts:23
+*Defined in [src/cache.ts:23](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/cache.ts#L23)*
 
 Searches through the Map's data and executes a
 string similarity method to try and find an entry.

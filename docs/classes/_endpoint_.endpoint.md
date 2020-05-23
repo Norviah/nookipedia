@@ -35,7 +35,7 @@
 
 \+ **new Endpoint**(`name`: endpoint.Names, `key`: string): *[Endpoint](_endpoint_.endpoint.md)*
 
-Defined in src/endpoint.ts:28
+*Defined in [src/endpoint.ts:28](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L28)*
 
 Initializes a new Endpoint instance.
 
@@ -54,7 +54,7 @@ Name | Type | Description |
 
 • **cache**: *[Cache](_cache_.cache.md)‹Endpoint›* = new Cache()
 
-Defined in src/endpoint.ts:28
+*Defined in [src/endpoint.ts:28](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L28)*
 
 Holds a reference to cached data.
 
@@ -64,7 +64,7 @@ ___
 
 • **key**: *string*
 
-Defined in src/endpoint.ts:18
+*Defined in [src/endpoint.ts:18](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L18)*
 
 The API key.
 
@@ -74,7 +74,7 @@ ___
 
 • **name**: *endpoint.Names*
 
-Defined in src/endpoint.ts:13
+*Defined in [src/endpoint.ts:13](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L13)*
 
 The name of this endpoint.
 
@@ -84,7 +84,7 @@ ___
 
 • **url**: *string* = "https://nookipedia.com/api"
 
-Defined in src/endpoint.ts:23
+*Defined in [src/endpoint.ts:23](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L23)*
 
 The base url for Nookiepdia's API.
 
@@ -94,7 +94,7 @@ The base url for Nookiepdia's API.
 
 ▸ **call**<**Type**>(`name`: string): *Promise‹api.APIResponse‹Type››*
 
-Defined in src/endpoint.ts:45
+*Defined in [src/endpoint.ts:45](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L45)*
 
 Directly calls the API for the given name, and returns the result.
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **get**(`name`: string, `options`: api.Options): *Promise‹api.APIResponse‹Endpoint››*
 
-Defined in src/endpoint.ts:114
+*Defined in [src/endpoint.ts:114](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L114)*
 
 Gets the given name from the API, returning cached data if
 the entry is cached. The name must be a non-blank string, as that
@@ -142,7 +142,7 @@ ___
 
 ▸ **list**(): *Promise‹api.APIResponse‹api.Entry[]››*
 
-Defined in src/endpoint.ts:69
+*Defined in [src/endpoint.ts:69](https://github.com/norviah/nookipedia/blob/f1c4ed5/src/endpoint.ts#L69)*
 
 Returns an object containing every entry in this endpoint.
 
